@@ -10,6 +10,8 @@ A hard fault caused by a Cortex-M3 STM32 assembly `udf` instruction yields:
 
 `cargo run 134621640 ~/file.elf`
 
+> where 134621640 is the program counter register value
+
 ```
 found: ./asm/inline.rs 181 5
 function: _ZN3lib6inline5__udf17ha5cfb7665e0fe90cE, lib::inline::__udf
